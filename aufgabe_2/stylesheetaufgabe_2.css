@@ -39,3 +39,37 @@ li:last-child{border-right: none;}
 .active {background-color: rgb(250, 192, 237);}
 .leftbottomborder {border-bottom-left-radius: 10px;}
 .rightbottomborder {border-bottom-right-radius: 10px;}
+
+.box1 {
+    background: rosybrown;
+    color: seashell;
+    
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: left}
+.box2 {
+    background: rosybrown;
+    color: seashell;
+
+    width: 400px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: left}
+
+.box3 {
+    background: rosybrown;
+    color: seashell;
+
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 10px;
+    text-align: left;}
+
+.box4 {
+    color: rosybrown;
+    text-align: left;}
+
+.box5 {
+    text-align: left;}
