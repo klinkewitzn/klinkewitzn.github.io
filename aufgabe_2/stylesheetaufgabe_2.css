@@ -36,3 +36,5 @@ li a {  display: block;
 li:last-child{border-right: none;}
 
 .active {background-color: rgb(250, 192, 237);}
+.leftbottomborder {border-bottom-left-radius: 10px;}
+.rightbottomborder {border-bottom-right-radius: 10px;}
