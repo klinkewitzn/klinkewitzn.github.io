@@ -1,1 +1,16 @@
 stylesheetaufgabe_2.css
+section {width: 800px;
+        margin: auto;}
+
+
+nav     {position: fixed;
+        top: 0px;
+        right: 0px;}
+
+
+a       {font-size: 40px;
+        color: white;
+        background: black;}
+
+
+a:hover {background: red;}
