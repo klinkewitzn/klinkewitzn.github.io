@@ -1,7 +1,8 @@
 stylesheetaufgabe_2.css
 
 section {width: 800px;
-    margin: auto;}
+    margin: auto;
+    }
 
 
 nav     {position: fixed;
@@ -10,7 +11,7 @@ nav     {position: fixed;
 
 
 a       {font-size: 20px;
-        color: white;
+        color: seashell;
         background: rgb(0, 1, 65);}
 
 
