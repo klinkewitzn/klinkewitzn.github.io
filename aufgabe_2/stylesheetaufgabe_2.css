@@ -70,10 +70,12 @@ li:last-child{border-right: none;}
 
 .box4 {
     color: rosybrown;
-    text-align: left;}
+    text-align: left;
+    padding: 10px;}
 
 .box5 {
-    text-align: left;}
+    text-align: left;
+    padding: 10px;}
 
 .linktransparent {
     background: transparent ;
