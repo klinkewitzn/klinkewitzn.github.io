@@ -6,8 +6,8 @@ section {width: 800px;
 
 
 nav     {position: fixed;
-    top: 0px;
-    right: 100px;}
+        top: 0px;
+        right: 100px;}
 
 
 a       {font-size: 20px;
@@ -74,3 +74,7 @@ li:last-child{border-right: none;}
 
 .box5 {
     text-align: left;}
+
+.linktransparent {
+    background: transparent ;
+}
