@@ -85,3 +85,9 @@ li:last-child{border-right: none;}
     margin-left: 5px;
     margin-right: 5px;
 }
+
+.iconinheader:hover {background: rgb(189, 238, 238);}
+
+.linktransparent:hover {
+    background: transparent;
+}
