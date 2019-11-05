@@ -1,0 +1,35 @@
+stylesheetstation5.css
+
+section{}
+
+body{
+    background-image: url(./images/bg.png);
+    }
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50;
+    transform: translate(-50%,-50%);
+    }
+
+img[alt=hintergrundbox]{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;}
+
+section{ 
+        color: seashell;
+        width: 520px;
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        }
+section.center{top: 51%;
+                }
+
+h1{     font-weight: 600;
+        font-size: 2em;}

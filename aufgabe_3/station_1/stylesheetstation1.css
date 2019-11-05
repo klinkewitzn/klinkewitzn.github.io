@@ -1,0 +1,45 @@
+stylesheetstation1.css
+
+section{}
+
+body{
+    background-image: url(./images/bg.png);
+    
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50;
+    transform: translate(-50%,-50%);
+}
+
+img[alt=hintergrundbox]{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+}
+
+section{top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        color: seashell;
+        width: 470px;
+        }
+
+img[alt=pinguin]{
+            position: absolute;
+            bottom: 20%;
+            right: 26%;
+                        }
+        
+img[alt=busch]{
+            position: absolute;
+            top: 11%;
+            left: 23%;}
+
+h1{     font-weight: 600;
+        font-size: 1.8em;}

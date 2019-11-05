@@ -1,0 +1,60 @@
+stylesheetstation3.css
+
+section{}
+
+body{
+    background-image: url(./images/bg.png);
+    }
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50;
+    transform: translate(-50%,-50%);
+    }
+
+img[alt=hintergrundbox]{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;}
+
+section{ 
+        color: seashell;
+        width: 520px;
+        font-weight: 600;
+        font-size: 1.8em;
+        }
+section.center{top: 35%;
+                }
+
+img[alt=sternleer]{
+            position: absolute;
+            top: 40%;
+            left: 38%;
+                        }
+
+img[alt=sternleer2]{
+                position: absolute;
+                top: 51%;
+                left: 32%;
+                          }
+
+img[alt=sternleer3]{
+                position: absolute;
+                top: 61%;
+                left: 46%;
+                            }
+img[alt=sternleer4]{
+                position: absolute;
+                top: 50%;
+                left: 59%;
+                             }
+.stern:hover{background-image: url(./images/stern_hover.png);}
+        
+img[alt=sterngelb]{
+            position: absolute;
+            top: 11%;
+            left: 23%;}

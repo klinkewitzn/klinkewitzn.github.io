@@ -1,0 +1,38 @@
+stylesheetstation8.css
+
+section{}
+
+body{
+    background-image: url(./images/bg.png);
+    }
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50;
+    transform: translate(-50%,-50%);
+    }
+
+img[alt=hintergrundbox]{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+    width: 60 px;}
+
+section{ 
+        color: seashell;
+        width: 520px;
+        font-weight: 600;
+        font-size: 1.8em;
+        }
+section.center{top: 50%;
+                left: 48.5%;
+                }
+img.background{ width: 640px;
+                height: 400px;}
+img.banderole{  top: 71%;
+                left: 65%;
+                z-index: 9;}

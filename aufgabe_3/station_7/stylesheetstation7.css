@@ -1,0 +1,62 @@
+stylesheetstation7.css
+
+section{}
+
+body{
+    background-image: url(./images/bg.png);
+    
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50;
+    transform: translate(-50%,-50%);
+}
+
+img[alt=hintergrundbox]{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+}
+
+section{top: 70%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        color: seashell;
+        width: 400px;
+        }
+
+img[alt=geschenke]{
+            position: absolute;
+            bottom: 16%;
+            right: 27%;
+             z-index: 7;           }
+        
+img[alt=busch]{
+            position: absolute;
+            top: 11%;
+            left: 23%;}
+
+h1{     font-weight: 600;
+        font-size: 1.8em;}
+section.center{top: 55%;
+                left: 47%;}
+img[alt=stern] {
+                position: absolute;
+                top: 27%;
+                left: 42%;}
+
+img[alt=stern2]{position: absolute;
+                top: 35%;
+                left: 34%;}
+img[alt=stern3]{position: absolute;
+                top: 32%;
+                right: 46%;
+                z-index: 9;}
+video.fire{position: absolute;
+                top:23%;
+                right:30%}
