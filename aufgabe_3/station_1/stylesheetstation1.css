@@ -4,6 +4,7 @@ section{}
 
 body{
     background-image: url(./images/bg.png);
+    
 }
 
 .center{
@@ -31,22 +32,22 @@ section{top: 50%;
 
 img[alt=pinguin]{
             position: absolute;
-            bottom: 20%;
-            right: 26%;
+            bottom: -170%;
+            right: -17%;
                         }
         
 img[alt=busch]{
             position: absolute;
-            top: 11%;
-            left: 23%;}
+            top: -230%;
+            left: -30%;}
 
 h1{     font-weight: 600;
         font-size: 1.8em;}
 
 .navigation {
     position: absolute; 
-    bottom: 25%;
-    right: 36%; 
+    bottom: -130%;
+    right: 13%; 
     width: 250px;
     height: 40px;
     padding: 10px;
@@ -54,3 +55,9 @@ h1{     font-weight: 600;
     color: seashell; 
     text-align: center;
     border-radius: 15px; }
+
+.text{z-index: 9;
+
+        position: absolute;
+        top: -120%;
+        left: 0%;} 
