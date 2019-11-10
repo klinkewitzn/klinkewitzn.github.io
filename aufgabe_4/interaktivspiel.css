@@ -1,0 +1,100 @@
+/*Allgemeine Anweisung=Smartphone-Darstellung
+This applies from 0px to 370px*/
+
+/*allgemein (Fragefeld und Hintergrund*/
+
+body{background: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    width: 200px;
+    margin: auto;}
+
+.question{position: absolute;
+    left:50%;
+    top: 20%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;}
+
+
+/*Start-Seite--> Button*/
+.text{position: absolute; left:50%;
+    top: 45%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;}
+.button{position: absolute; left:50%;
+    top: 45%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;}
+
+.warnung{position: absolute; left:50%;
+    top: 35%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+    color: navy;}
+
+/*Frage-Seiten--> AntwortFelder*/
+.a2{position: absolute;
+    left:50%;
+    top: 46%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;}
+
+.a3{position: absolute;
+    left:50%;
+    top: 53%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;}
+
+.a4{position: absolute;
+    left:50%;
+    top: 60%;
+    transform:  translate(-50%, -50%);
+    margin: auto;pü
+    text-align: center;}
+
+.a1{position: absolute;
+    left:50%;
+    top: 38%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+    }
+.joker{position: absolute;
+    left:50%;
+    top: 6%;
+    transform:  translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+    z-index: 1;}
+
+.answer:hover{background-image: url(./images/answer_over.png);}
+
+p{color: antiquewhite;}
+.p1{        position: absolute;
+            left: 50%;
+            top: 45%;}
+.p2{        position: absolute;
+            left:50%;
+            top: 47%;}
+.p3{        position: absolute;
+            left:50%;
+            top: 47%;}
+.p4{position: absolute;
+    left:50%;
+    top: 48%;}
+
+h1{color: antiquewhite;
+    font-size: 20px;}
+
+.p5{position: absolute;
+    left:50%;
+    top: 40%;}

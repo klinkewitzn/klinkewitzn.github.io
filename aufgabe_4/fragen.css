@@ -1,0 +1,39 @@
+/*Allgemeine Anweisung=Smartphone-Darstellung
+This applies from 0px to 370px*/
+
+body{background: rosybrown;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    
+    }
+
+
+div{text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,0%);}
+
+img[hintergrund]{position: absolute;
+        left: 50%;
+       transform: translate(-50%,0%);
+       width: 250px;
+       z-index: 1;}
+
+section{position: absolute;
+        top: 150px;
+        z-index: 8;}
+img[Antwortkasten]{position: absolute;
+                    left: 30px;}
+.a1{    position: absolute;
+        left: -30px;
+        top: 200px;
+        width: 60%;
+        height: 13%;}
+
+
+
+
+
+
