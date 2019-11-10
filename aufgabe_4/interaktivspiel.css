@@ -8,8 +8,7 @@ body{background: url(images/bg.jpg);
     background-repeat: no-repeat;
     text-align: center;
 
-    width: 300px;
-    margin: auto;}
+    }
 
 .question{position: absolute;
     left:50%;
@@ -102,11 +101,19 @@ h1{color: antiquewhite;
 
 
 /*mobile screen*/
-@media screen and (max-width: 640px)
+@media screen and (max-width: 620px)
 { 
-.container{
+    .container{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);}
 }
+@media screen and (min-width: 620px)
+{
+        .container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
