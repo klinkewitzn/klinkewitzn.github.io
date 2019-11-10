@@ -114,6 +114,7 @@ This applies from 0px to 370px*/
     text-align: center;
     }
     .warnung{display: none;}
+    img[alt=question]{display: none;}
 }
 @media screen and (min-width: 620px)
 {
