@@ -10,7 +10,7 @@ This applies from 0px to 370px*/
 { 
     body{background-image: url(images/bg.jpg);
         background-repeat: no-repeat;
-        width: 280px;
+        
         background-size: cover;
         }
     
