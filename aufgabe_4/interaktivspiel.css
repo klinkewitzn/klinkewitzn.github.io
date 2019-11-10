@@ -20,9 +20,9 @@ This applies from 0px to 370px*/
         transform:  translate(-50%, -50%);
         margin: auto;
         text-align: center;}
+    .questioncontainer{background-size: cover;}
     
-    
-    /*Start-Seite--> Button*/
+    /*Start-Seite--> Button etc*/
     .text{position: absolute; left:50%;
         top: 45%;
         transform:  translate(-50%, -50%);
@@ -105,7 +105,8 @@ This applies from 0px to 370px*/
     .warnung{display: none;}
     
 
-    .answer, .question{text-align: center;}
+    .answer, .question{text-align: center;
+                       }
 }
 @media screen and (min-width: 620px)
 {
