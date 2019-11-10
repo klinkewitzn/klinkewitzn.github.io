@@ -102,28 +102,13 @@ This applies from 0px to 370px*/
         left:50%;
         top: 40%;}
     
-    
-
-    .container{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    }
     .warnung{display: none;}
     
 
-    .answer, .question{size: 50%;}
+    .answer, .question{width: 270px;}
 }
 @media screen and (min-width: 620px)
 {
-        .container {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);}
+       
         img[alt=questionstart]{display: none;}
     }
