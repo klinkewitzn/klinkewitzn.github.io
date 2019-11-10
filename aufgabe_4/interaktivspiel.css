@@ -4,7 +4,8 @@ This applies from 0px to 370px*/
 /*allgemein (Fragefeld und Hintergrund*/
 
 body{background-image: url(images/bg.jpg);
-
+    background-repeat: no-repeat;
+    width: 280px;
     }
 
 .question{position: absolute;
