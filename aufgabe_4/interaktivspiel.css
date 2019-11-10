@@ -114,7 +114,9 @@ This applies from 0px to 370px*/
     text-align: center;
     }
     .warnung{display: none;}
-    img[alt=question]{display: none;}
+    
+
+    .answer, .question{size: 50%;}
 }
 @media screen and (min-width: 620px)
 {
@@ -122,5 +124,6 @@ This applies from 0px to 370px*/
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);}
+        img[alt=questionstart]{display: none;}
     }
