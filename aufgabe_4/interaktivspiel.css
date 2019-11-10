@@ -4,7 +4,7 @@ This applies from 0px to 370px*/
 /*allgemein (Fragefeld und Hintergrund*/
 
 body{background: url(images/bg.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
 
