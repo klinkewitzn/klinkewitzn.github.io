@@ -13,6 +13,7 @@ This applies from 0px to 370px*/
         
         background-size: cover;
         height: 500px;
+       
         }
 
     img[alt=question]{width: auto;
@@ -71,7 +72,7 @@ This applies from 0px to 370px*/
     /*Frage-Seiten--> AntwortFelder*/
     .a2{position: absolute;
         left:50%;
-        top: 37%;
+        top: 44%;
         transform:  translate(-50%, -50%);
         margin: auto;
         text-align: center;
@@ -79,15 +80,16 @@ This applies from 0px to 370px*/
     
     .a3{position: absolute;
         left:50%;
-        top: 43%;
+        top: 50%;
         transform:  translate(-50%, -50%);
         margin: auto;
         text-align: center;
+        
         }
     
     .a4{position: absolute;
         left:50%;
-        top: 49%;
+        top: 59%;
         transform:  translate(-50%, -50%);
         margin: auto;
         text-align: center;
@@ -95,7 +97,7 @@ This applies from 0px to 370px*/
     
     .a1{position: absolute;
         left:50%;
-        top: 31%;
+        top: 35%;
         transform:  translate(-50%, -50%);
         margin: auto;
         text-align: center;
