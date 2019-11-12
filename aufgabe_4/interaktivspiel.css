@@ -148,5 +148,5 @@ This applies from 0px to 370px*/
 @media screen and (min-width: 620px)
 {
        
-        img[alt=questionstart]{display: none;}
+        img[alt=question]{display: none;}
     }
