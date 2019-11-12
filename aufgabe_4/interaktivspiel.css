@@ -6,22 +6,27 @@ This applies from 0px to 370px*/
 
 
 /*mobile screen*/
-@media screen and (max-width: 620px)
+@media screen and (max-width: 600px)
 { 
     body{background-image: url(images/bg.jpg);
         background-repeat: no-repeat;
         
         background-size: cover;
         }
+
+    img[alt=question]{width: 100%;}
     
     .question{position: absolute;
         left:50%;
         top: 20%;
         transform:  translate(-50%, -50%);
         margin: auto;
-        text-align: center;}
+        text-align: center;
+    }
     .questioncontainer{background-size: cover;}
     
+    .container{width: 70px;}
+
     /*Start-Seite--> Button etc*/
     .text{position: absolute; left:50%;
         top: 45%;
@@ -47,21 +52,24 @@ This applies from 0px to 370px*/
         top: 46%;
         transform:  translate(-50%, -50%);
         margin: auto;
-        text-align: center;}
+        text-align: center;
+        }
     
     .a3{position: absolute;
         left:50%;
         top: 53%;
         transform:  translate(-50%, -50%);
         margin: auto;
-        text-align: center;}
+        text-align: center;
+        }
     
     .a4{position: absolute;
         left:50%;
         top: 60%;
         transform:  translate(-50%, -50%);
         margin: auto;
-        text-align: center;}
+        text-align: center;
+        }
     
     .a1{position: absolute;
         left:50%;
@@ -70,6 +78,7 @@ This applies from 0px to 370px*/
         margin: auto;
         text-align: center;
         z-index: 1;
+        
         }
     .joker{position: absolute;
         left:50%;
