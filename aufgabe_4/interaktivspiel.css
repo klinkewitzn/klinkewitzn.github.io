@@ -11,7 +11,7 @@ This applies from 0px to 370px*/
     body{background-image: url(images/bg.jpg);
         background-repeat: no-repeat;
         
-        background-size: cover;
+        background-size: cover !important;
         height: 500px;
        
         }
@@ -102,6 +102,7 @@ This applies from 0px to 370px*/
         margin: auto;
         text-align: center;
         z-index: 1;
+      
         }
     .joker{position: absolute;
         left:50%;
