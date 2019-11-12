@@ -12,6 +12,7 @@ This applies from 0px to 370px*/
         background-repeat: no-repeat;
         
         background-size: cover;
+        height: 500px;
         }
 
     img[alt=question]{width: auto;
@@ -52,7 +53,8 @@ This applies from 0px to 370px*/
         top: 45%;
         transform:  translate(-50%, -50%);
         margin: auto;
-        text-align: center;}
+        text-align: center;
+        width: 200px;}
     .button{position: absolute; left:50%;
         top: 45%;
         transform:  translate(-50%, -50%);
@@ -107,7 +109,8 @@ This applies from 0px to 370px*/
         text-align: center;
         z-index: 1;}
     
-    .answer:hover{background-image: url(./images/answer_over.png);}
+    .answer:hover{background-image: url(./images/answer_over.png);
+                }
     
     p{color: antiquewhite;}
     .p1{        position: absolute;
