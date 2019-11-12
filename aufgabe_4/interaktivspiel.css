@@ -42,7 +42,7 @@ This applies from 0px to 370px*/
         text-align: center;
         width: 70px;
         position: absolute;
-                     
+      
      
     }
     .questioncontainer{background-size: cover;}
@@ -99,10 +99,9 @@ This applies from 0px to 370px*/
         left:50%;
         top: 35%;
         transform:  translate(-50%, -50%);
-        margin: auto;
         text-align: center;
         z-index: 1;
-      
+
         }
     .joker{position: absolute;
         left:50%;
@@ -118,7 +117,7 @@ This applies from 0px to 370px*/
     p{color: antiquewhite;}
     .p1{        position: absolute;
                 left: 50%;
-                top: 45%;}
+                top: 15%;}
     .p2{        position: absolute;
                 left:50%;
                 top: 47%;}
