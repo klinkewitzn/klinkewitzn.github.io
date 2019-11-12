@@ -14,7 +14,8 @@ This applies from 0px to 370px*/
         background-size: cover;
         }
 
-    img[alt=question]{width: 200%;}
+    img[alt=question]{width: 100%;
+                        size: 2em;}
     
     .question{position: absolute;
         left:50%;
