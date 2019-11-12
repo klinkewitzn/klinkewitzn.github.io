@@ -117,19 +117,23 @@ This applies from 0px to 370px*/
     p{color: antiquewhite;}
     .p1{        position: absolute;
                 left: 50%;
-                top: 15%;}
+                top: 15%;
+                font-size: 14px;}
     .p2{        position: absolute;
                 left:50%;
-                top: 47%;}
+                top: 47%;
+                font-size: 14px;}
     .p3{        position: absolute;
                 left:50%;
-                top: 47%;}
+                top: 47%;
+                font-size: 14px;}
     .p4{position: absolute;
         left:50%;
-        top: 48%;}
+        top: 48%;
+        font-size: 14px;}
     
     h1{color: antiquewhite;
-        font-size: 20px;}
+        font-size: 19px;}
     
     .p5{position: absolute;
         left:50%;
