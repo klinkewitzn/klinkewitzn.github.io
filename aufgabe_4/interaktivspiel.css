@@ -49,6 +49,7 @@ This applies from 0px to 370px*/
     .questioncontainer{background-size: cover;}
     
     .container{width: 70px;}
+    .containerantworten{/*nichts funktioniert um die Größe/Breite zu ändern D: */}
 
     /*Start-Seite--> Button etc*/
     .text{position: absolute; left:50%;
@@ -112,8 +113,10 @@ This applies from 0px to 370px*/
         text-align: center;
         z-index: 1;}
     
-    .answer:hover{background-image: url(./images/answer_over.png);
+    .answer:hover{background-image: url(./images/answer_over.png) !important;
+                  
                 }
+                
     
     p{color: antiquewhite;}
     .p1{        position: absolute;
