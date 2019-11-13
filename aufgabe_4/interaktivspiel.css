@@ -161,4 +161,10 @@ This applies from 0px to 370px*/
             background-color: rgb(0, 63, 146);
            
             }
+            p{text-align: center;
+            margin: auto;
+            color: antiquewhite;
+            
+            }
+            .button{text-align: center;}
     }
