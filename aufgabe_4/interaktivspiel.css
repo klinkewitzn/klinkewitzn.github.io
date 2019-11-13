@@ -153,4 +153,12 @@ This applies from 0px to 370px*/
 {
        
         img[alt=question]{display: none;}
+        body{background-image: url(images/bg.jpg);
+            background-repeat: no-repeat;
+            
+            background-size: cover !important;
+            
+            background-color: rgb(0, 63, 146);
+           
+            }
     }
