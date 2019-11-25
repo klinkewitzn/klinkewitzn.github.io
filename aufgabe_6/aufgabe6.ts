@@ -157,11 +157,11 @@ function naabsolute(){
 function narelative(){
             var weltgesamt:number = 37100;
             var narelativprozent:number = (na2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=narelativprozent+"%";}
+            document.querySelector(".relative").innerHTML=narelativprozent.toFixed(2)+"%";}
 function growthperc(){
-            document.querySelector(".growthperc").innerHTML=changenapercent+"%";}
+            document.querySelector(".growthperc").innerHTML=""+changenapercent.toFixed(2)+"%";}
 function growthabs(){
-            document.querySelector(".growthabs").innerHTML=changenanumber+"";
+            document.querySelector(".growthabs").innerHTML=""+changenanumber.toFixed(2);
             document.querySelector(".chart").setAttribute('style','height:'+narelativprozent+"%");}
 
 document.querySelector(".northamerica").addEventListener("click", nordamerikaheading);
@@ -185,11 +185,11 @@ function saabsolute(){
 function sarelative(){
             var weltgesamt:number = 37100;
             var sarelativprozent:number = (sa2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=sarelativprozent+"%";}
+            document.querySelector(".relative").innerHTML=sarelativprozent.toFixed(2)+"%";}
 function sagrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changesapercent+"%";}
+            document.querySelector(".growthperc").innerHTML=changesapercent.toFixed(2)+"%";}
 function sagrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changesanumber+"";
+            document.querySelector(".growthabs").innerHTML=changesanumber.toFixed(2)+"";
             document.querySelector(".chart").setAttribute('style','height:'+sarelativprozent+"%");}
 
 document.querySelector(".southamerica").addEventListener("click", südamerikaheading);
@@ -213,11 +213,11 @@ function afabsolute(){
 function afrelative(){
             var weltgesamt:number = 37100;
             var afrelativprozent:number = (af2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=afrelativprozent+"%";}
+            document.querySelector(".relative").innerHTML=afrelativprozent.toFixed(2)+"%";}
 function afgrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changeafpercent+"%";}
+            document.querySelector(".growthperc").innerHTML=changeafpercent.toFixed(2)+"%";}
 function afgrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changeafnumber+"";
+            document.querySelector(".growthabs").innerHTML=changeafnumber.toFixed(2)+"";
             document.querySelector(".chart").setAttribute('style','height:'+afrelativprozent+"%");}
 
 document.querySelector(".africa").addEventListener("click", afrikaheading);
@@ -241,12 +241,12 @@ function asiaabsolute(){
 function asiarelative(){
             var weltgesamt:number = 37100;
             var asiarelativprozent:number = (asia2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=asiarelativprozent+"% ";}
+            document.querySelector(".relative").innerHTML=asiarelativprozent.toFixed(2)+"% ";}
 function asiagrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changeasiapercent+"% ";}
+            document.querySelector(".growthperc").innerHTML=changeasiapercent.toFixed(2)+"% ";}
 function asiagrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changeasianumber+"";
-            document.querySelector(".chart").setAttribute('style','height:'+asiarelativprozent+"%");}
+            document.querySelector(".growthabs").innerHTML=changeasianumber.toFixed(2)+"";
+            document.querySelector(".chart").setAttribute('style','height:'+asiarelativprozent.toFixed(2)+"%");}
 
 document.querySelector(".asia").addEventListener("click", asienheading);
 document.querySelector(".asia").addEventListener("click", asientext);
@@ -269,12 +269,12 @@ function auabsolute(){
 function aurelative(){
             var weltgesamt:number = 37100;
             var aurelativprozent:number = (au2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=aurelativprozent+"% ";}
+            document.querySelector(".relative").innerHTML=aurelativprozent.toFixed(2)+"% ";}
 function augrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changeaupercent+"% ";}
+            document.querySelector(".growthperc").innerHTML=changeaupercent.toFixed(2)+"% ";}
 function augrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changeaunumber+"";
-            document.querySelector(".chart").setAttribute('style','height:'+aurelativprozent+"%"); }
+            document.querySelector(".growthabs").innerHTML=changeaunumber.toFixed(2)+"";
+            document.querySelector(".chart").setAttribute('style','height:'+aurelativprozent.toFixed(2)+"%"); }
 
 document.querySelector(".australia").addEventListener("click", auheading);
 document.querySelector(".australia").addEventListener("click", autext);
@@ -298,12 +298,12 @@ function euabsolute(){
 function eurelative(){
             var weltgesamt:number = 37100;
             var relativprozent:number = (eu2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=relativprozent+"% ";}
+            document.querySelector(".relative").innerHTML=relativprozent.toFixed(2)+"% ";}
 function eugrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changeeupercent+"% ";}
+            document.querySelector(".growthperc").innerHTML=changeeupercent.toFixed(2)+"% ";}
 function eugrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changeeunumber+"";
-            document.querySelector(".chart").setAttribute('style','height:'+relativprozent+"%"); }
+            document.querySelector(".growthabs").innerHTML=changeeunumber.toFixed(2)+"";
+            document.querySelector(".chart").setAttribute('style','height:'+relativprozent.toFixed(2)+"%"); }
 
 document.querySelector(".europe").addEventListener("click", euheading);
 document.querySelector(".europe").addEventListener("click", eutext);
