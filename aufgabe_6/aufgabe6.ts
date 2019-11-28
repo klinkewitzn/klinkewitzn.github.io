@@ -145,169 +145,99 @@ console.log(text4au+ changeaunumber +"kg CO2");
 
 //Beginn Aufgabe 6
 //Nordamerika
-function nordamerikaheading()
+function nordamerika()
         {document.querySelector(".titleRegion").innerHTML="North America";
+        document.querySelector(".titleRegion2").innerHTML="North America";
+        document.querySelector(".absolute").innerHTML=na2018+"";
+        var weltgesamt:number = 37100;
+        var narelativprozent:number = (na2018/weltgesamt)*100;
+        document.querySelector(".relative").innerHTML=narelativprozent.toFixed(2)+"%";
+        document.querySelector(".growthperc").innerHTML=""+changenapercent.toFixed(2)+"%";
+        document.querySelector(".growthabs").innerHTML=""+changenanumber.toFixed(2);
+        document.querySelector(".chart").setAttribute('style','height:'+narelativprozent+"%");
         }
 
-function nordamerikatext()
-        {document.querySelector(".titleRegion2").innerHTML="North America";
-        }
-function naabsolute(){
-            document.querySelector(".absolute").innerHTML=na2018+"";}
-function narelative(){
-            var weltgesamt:number = 37100;
-            var narelativprozent:number = (na2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=narelativprozent.toFixed(2)+"%";}
-function growthperc(){
-            document.querySelector(".growthperc").innerHTML=""+changenapercent.toFixed(2)+"%";}
-function growthabs(){
-            document.querySelector(".growthabs").innerHTML=""+changenanumber.toFixed(2);
-            document.querySelector(".chart").setAttribute('style','height:'+narelativprozent+"%");}
+document.querySelector(".northamerica").addEventListener("click", nordamerika);
 
-document.querySelector(".northamerica").addEventListener("click", nordamerikaheading);
-document.querySelector(".northamerica").addEventListener("click", nordamerikatext);
-document.querySelector(".northamerica").addEventListener("click", naabsolute);
-document.querySelector(".northamerica").addEventListener("click", narelative);
-document.querySelector(".northamerica").addEventListener("click", growthperc);
-document.querySelector(".northamerica").addEventListener("click", growthabs);
 
 //Südamerika
 
-function südamerikaheading()
+function südamerika()
         {document.querySelector(".titleRegion").innerHTML="South America";
+        document.querySelector(".titleRegion2").innerHTML="South America";
+        document.querySelector(".absolute").innerHTML=sa2018+"";
+        var weltgesamt:number = 37100;
+        var sarelativprozent:number = (sa2018/weltgesamt)*100;
+        document.querySelector(".relative").innerHTML=sarelativprozent.toFixed(2)+"%";
+        document.querySelector(".growthperc").innerHTML=changesapercent.toFixed(2)+"%";
+        document.querySelector(".growthabs").innerHTML=changesanumber.toFixed(2)+"";
+        document.querySelector(".chart").setAttribute('style','height:'+sarelativprozent+"%");
         }
 
-function südamerikatext()
-        {document.querySelector(".titleRegion2").innerHTML="South America";
-        }
-function saabsolute(){
-            document.querySelector(".absolute").innerHTML=sa2018+"";}
-function sarelative(){
-            var weltgesamt:number = 37100;
-            var sarelativprozent:number = (sa2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=sarelativprozent.toFixed(2)+"%";}
-function sagrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changesapercent.toFixed(2)+"%";}
-function sagrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changesanumber.toFixed(2)+"";
-            document.querySelector(".chart").setAttribute('style','height:'+sarelativprozent+"%");}
+document.querySelector(".southamerica").addEventListener("click", südamerika);
 
-document.querySelector(".southamerica").addEventListener("click", südamerikaheading);
-document.querySelector(".southamerica").addEventListener("click", südamerikatext);
-document.querySelector(".southamerica").addEventListener("click", saabsolute);
-document.querySelector(".southamerica").addEventListener("click", sarelative);
-document.querySelector(".southamerica").addEventListener("click", sagrowthperc);
-document.querySelector(".southamerica").addEventListener("click", sagrowthabs);
 
 //Afrika
 
-function afrikaheading()
+function afrika()
         {document.querySelector(".titleRegion").innerHTML="Africa";
+        document.querySelector(".titleRegion2").innerHTML="Africa";
+        document.querySelector(".absolute").innerHTML=af2018+"";
+        var weltgesamt:number = 37100;
+        var afrelativprozent:number = (af2018/weltgesamt)*100;
+        document.querySelector(".relative").innerHTML=afrelativprozent.toFixed(2)+"%";
+        document.querySelector(".growthperc").innerHTML=changeafpercent.toFixed(2)+"%";
+        document.querySelector(".growthabs").innerHTML=changeafnumber.toFixed(2)+"";
+        document.querySelector(".chart").setAttribute('style','height:'+afrelativprozent+"%");
         }
 
-function afrikatext()
-        {document.querySelector(".titleRegion2").innerHTML="Africa";
-        }
-function afabsolute(){
-            document.querySelector(".absolute").innerHTML=af2018+"";}
-function afrelative(){
-            var weltgesamt:number = 37100;
-            var afrelativprozent:number = (af2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=afrelativprozent.toFixed(2)+"%";}
-function afgrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changeafpercent.toFixed(2)+"%";}
-function afgrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changeafnumber.toFixed(2)+"";
-            document.querySelector(".chart").setAttribute('style','height:'+afrelativprozent+"%");}
-
-document.querySelector(".africa").addEventListener("click", afrikaheading);
-document.querySelector(".africa").addEventListener("click", afrikatext);
-document.querySelector(".africa").addEventListener("click", afabsolute);
-document.querySelector(".africa").addEventListener("click", afrelative);
-document.querySelector(".africa").addEventListener("click", afgrowthperc);
-document.querySelector(".africa").addEventListener("click", afgrowthabs);
+document.querySelector(".africa").addEventListener("click", afrika);
 
 //Asien
 
-function asienheading()
+function asien()
         {document.querySelector(".titleRegion").innerHTML="Asia";
+        document.querySelector(".titleRegion2").innerHTML="Asia";
+        document.querySelector(".absolute").innerHTML=asia2018+"";
+        var weltgesamt:number = 37100;
+        var asiarelativprozent:number = (asia2018/weltgesamt)*100;
+        document.querySelector(".relative").innerHTML=asiarelativprozent.toFixed(2)+"% ";
+        document.querySelector(".growthperc").innerHTML=changeasiapercent.toFixed(2)+"% ";
+        document.querySelector(".growthabs").innerHTML=changeasianumber.toFixed(2)+"";
+        document.querySelector(".chart").setAttribute('style','height:'+asiarelativprozent.toFixed(2)+"%");
         }
 
-function asientext()
-        {document.querySelector(".titleRegion2").innerHTML="Asia";
-        }
-function asiaabsolute(){
-            document.querySelector(".absolute").innerHTML=asia2018+"";}
-function asiarelative(){
-            var weltgesamt:number = 37100;
-            var asiarelativprozent:number = (asia2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=asiarelativprozent.toFixed(2)+"% ";}
-function asiagrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changeasiapercent.toFixed(2)+"% ";}
-function asiagrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changeasianumber.toFixed(2)+"";
-            document.querySelector(".chart").setAttribute('style','height:'+asiarelativprozent.toFixed(2)+"%");}
-
-document.querySelector(".asia").addEventListener("click", asienheading);
-document.querySelector(".asia").addEventListener("click", asientext);
-document.querySelector(".asia").addEventListener("click", asiaabsolute);
-document.querySelector(".asia").addEventListener("click", asiarelative);
-document.querySelector(".asia").addEventListener("click", asiagrowthperc);
-document.querySelector(".asia").addEventListener("click", asiagrowthabs);
+document.querySelector(".asia").addEventListener("click", asien);
 
 //Australien
 
 function auheading()
         {document.querySelector(".titleRegion").innerHTML="Australia";
+        document.querySelector(".titleRegion2").innerHTML="Australia";
+        document.querySelector(".absolute").innerHTML=au2018+"";
+        var weltgesamt:number = 37100;
+        var aurelativprozent:number = (au2018/weltgesamt)*100;
+        document.querySelector(".relative").innerHTML=aurelativprozent.toFixed(2)+"% ";
+        document.querySelector(".growthperc").innerHTML=changeaupercent.toFixed(2)+"% ";
+        document.querySelector(".growthabs").innerHTML=changeaunumber.toFixed(2)+"";
+        document.querySelector(".chart").setAttribute('style','height:'+aurelativprozent.toFixed(2)+"%");
         }
-
-function autext()
-        {document.querySelector(".titleRegion2").innerHTML="Australia";
-        }
-function auabsolute(){
-            document.querySelector(".absolute").innerHTML=au2018+"";}
-function aurelative(){
-            var weltgesamt:number = 37100;
-            var aurelativprozent:number = (au2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=aurelativprozent.toFixed(2)+"% ";}
-function augrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changeaupercent.toFixed(2)+"% ";}
-function augrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changeaunumber.toFixed(2)+"";
-            document.querySelector(".chart").setAttribute('style','height:'+aurelativprozent.toFixed(2)+"%"); }
 
 document.querySelector(".australia").addEventListener("click", auheading);
-document.querySelector(".australia").addEventListener("click", autext);
-document.querySelector(".australia").addEventListener("click", auabsolute);
-document.querySelector(".australia").addEventListener("click", aurelative);
-document.querySelector(".australia").addEventListener("click", augrowthperc);
-document.querySelector(".australia").addEventListener("click", augrowthabs);
 
 //Europa
 
 
 function euheading()
         {document.querySelector(".titleRegion").innerHTML="Europe";
+        document.querySelector(".titleRegion2").innerHTML="Europe";
+        document.querySelector(".absolute").innerHTML=eu2018+"";
+        var weltgesamt:number = 37100;
+        var relativprozent:number = (eu2018/weltgesamt)*100;
+        document.querySelector(".relative").innerHTML=relativprozent.toFixed(2)+"% ";
+        document.querySelector(".growthperc").innerHTML=changeeupercent.toFixed(2)+"% ";
+        document.querySelector(".growthabs").innerHTML=changeeunumber.toFixed(2)+"";
+        document.querySelector(".chart").setAttribute('style','height:'+relativprozent.toFixed(2)+"%");
         }
-
-function eutext()
-        {document.querySelector(".titleRegion2").innerHTML="Europe";
-        }
-function euabsolute(){
-            document.querySelector(".absolute").innerHTML=eu2018+"";}
-function eurelative(){
-            var weltgesamt:number = 37100;
-            var relativprozent:number = (eu2018/weltgesamt)*100;
-            document.querySelector(".relative").innerHTML=relativprozent.toFixed(2)+"% ";}
-function eugrowthperc(){
-            document.querySelector(".growthperc").innerHTML=changeeupercent.toFixed(2)+"% ";}
-function eugrowthabs(){
-            document.querySelector(".growthabs").innerHTML=changeeunumber.toFixed(2)+"";
-            document.querySelector(".chart").setAttribute('style','height:'+relativprozent.toFixed(2)+"%"); }
 
 document.querySelector(".europe").addEventListener("click", euheading);
-document.querySelector(".europe").addEventListener("click", eutext);
-document.querySelector(".europe").addEventListener("click", euabsolute);
-document.querySelector(".europe").addEventListener("click", eurelative);
-document.querySelector(".europe").addEventListener("click", eugrowthperc);
-document.querySelector(".europe").addEventListener("click", eugrowthabs);
