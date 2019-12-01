@@ -1,0 +1,107 @@
+body {
+    background-color: #000000;
+    text-align: center;
+}
+
+.box {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+}
+
+.button1 {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #87ceeb;
+}
+
+.button2 {
+    position: absolute;
+    left: 165px;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #87ceeb;
+}
+
+.button3 {
+    position: absolute;
+    left: 320px;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #87ceeb;
+}
+
+.button4 {
+    position: absolute;
+    left: 10px;
+    top: 155px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color:#Fabcbc;
+}
+
+.button5 {
+    position: absolute;
+    left: 165px;
+    top: 155px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color:#Fabcbc;
+}
+
+.button6 {
+    position: absolute;
+    left: 320px;
+    top: 155px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color:#Fabcbc;
+}
+
+.button7 {
+    position: absolute;
+    left: 10px;
+    top: 310px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color:#Fabcbc;
+}
+
+.button8 {
+    position: absolute;
+    left: 165px;
+    top: 310px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #FFCC99;
+}
+
+.button9 {
+    position: absolute;
+    left: 320px;
+    top: 310px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #FFCC99;
+}
+
+.playbutton {
+    position: absolute;
+    left: 170px;
+    top: 460px;
+}
