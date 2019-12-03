@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #101829;
     text-align: center;
 }
 
@@ -105,3 +105,4 @@ body {
     left: 170px;
     top: 460px;
 }
+.playbutton:hover{transform: scale(1.10);}
