@@ -1,4 +1,4 @@
-var test:string = "Hallo";
+/*var test:string = "Hallo";
 var welt:string = "Welt";
 
 var zahl:number = 2000;
@@ -28,4 +28,15 @@ if (zahl == zahl3){console.log("zahl 1 ist gleich zahl 3")} else{console.log("za
 //2 mögliche bedingungen (&zugehörige ausgaben)+ 3. ausgabe ("ansonsten")
 if (zahl != zahl2 ){console.log("zahl 1 ist ungleich zahl 2")} 
 else if (zahl ==zahl2){console.log("zahl 1 ist gleich zahl 2")} 
-else {console.log ("nichts von beidem")}u
+else {console.log ("nichts von beidem")} */
+
+var mehrereWerte=["Erster","Zweiter",123,true]
+
+function arrayAusgeben(array){
+    for(var i=0;i<array.length;i++){
+        console.log("Der"+(i+1)+".Wert (Index" + i+ ") des Arrays ist:"+array[i]);
+    }
+}
+
+arrayAusgeben(mehrereWerte)
+console.log( mehrereWerte)

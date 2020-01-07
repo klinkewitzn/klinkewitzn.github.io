@@ -24,16 +24,17 @@ function playSample(sounds) {
 }
 function playbutton() {
     var index = 0;
-    if (document.getElementById("Play").classList.contains("fa-play")) {
-        document.getElementById("Play").classList.remove("fa-play");
-        document.getElementById("Play").classList.add("fa-pause");
+    var playid = document.getElementById("Play");
+    if (playid.classList.contains("fa-play")) {
+        playid.classList.remove("fa-play");
+        playid.classList.add("fa-pause");
         Kick = setInterval(playBeat, 500);
         record = false;
         console.log("Play");
     }
     else {
-        document.getElementById("Play").classList.remove("fa-pause");
-        document.getElementById("Play").classList.add("fa-play");
+        playid.classList.remove("fa-pause");
+        playid.classList.add("fa-play");
         clearInterval(Kick);
         console.log("Pause");
     }
