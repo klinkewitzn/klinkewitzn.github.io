@@ -1,29 +1,31 @@
 var eintraege: string[] = ["einkaufen gehen", "Familie besuchen", "weiteres"];
+function Remove(ClickedTrash) {
+    console.log("This is deleating the task");
+    ClickedTrash.parentElement.remove(); // p wird bei click auf Tonne gelöscht
+    index--;
 
-window.addEventListener("load", function (): void {
+    window.addEventListener("load", function (): void {
 
-    list();
-
-    document.querySelector("#addTask").addEventListener("click", function (): void {
-
-        var input: HTMLInputElement = document.querySelector("#input");
-        eintraege.push(input.value);
-        input.value = "";
-        console.log("huhu");
         list();
+
+        document.querySelector("#addTask").addEventListener("click", function (): void {
+
+            var input: HTMLInputElement = document.querySelector("#input");
+            eintraege.push(input.value);
+            input.value = "";
+            console.log("huhu");
+            list();
+        });
+
+        function list(): void {
+            document.querySelector("#eintraege").innerHTML = "";
+            for (var index: number = 0; index < eintraege.length; index++) {
+                document.querySelector("#eintraege").innerHTML += "<p class=activity >" + "<i class='far fa-circle checkbox'></i>" + "  " + eintraege[index] + "</input>" + "<button onclick=\"Remove(this)\" class='far fa-trash-alt trash'>" + "</button>" + "     " + "</p>" + "<br>";
+            }
+            document.querySelector("#tasknumber").innerHTML = "" + eintraege.length;
+        }
     });
 
-    function list(): void {
-        document.querySelector("#eintraege").innerHTML = "";
-        for (var index: number = 0; index < eintraege.length; index++) {
-            document.querySelector("#eintraege").innerHTML += "<p class=activity >" + "<i class='far fa-circle checkbox'></i>" + "  " + eintraege[index] + "</input>" + "<button onclick=\"Remove(this)\" class='far fa-trash-alt trash'>" + "</button>" + "     " + "</p>" + "<br>";
-        }
-        document.querySelector("#tasknumber").innerHTML = "" + eintraege.length;
-    }
-    function Remove(ClickedTrash) {
-        console.log("This is deleating the task");
-        ClickedTrash.parentElement.remove(); // p wird bei click auf Tonne gelöscht
-        index--;
 
 /*
         function CheckedButton(ClickedButton) {
