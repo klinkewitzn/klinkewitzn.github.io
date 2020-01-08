@@ -24,14 +24,14 @@ h1{
     
 }
 
-input,p {
+input, p {
     background-color: white;
     padding: 20px;
     margin: 2px;
     border-radius: 5px;
 }
 
-button {
+#addTask {
     position: absolute;
     left: 14%;
     top: 30%;
@@ -55,7 +55,6 @@ button {
     font-size: 20px;
     border: none;
 }
-
 
 button:hover {
     cursor: pointer;
