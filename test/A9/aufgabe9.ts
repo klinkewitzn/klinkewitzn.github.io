@@ -1,4 +1,10 @@
 var eintraege: string[] = ["einkaufen gehen", "Familie besuchen", "weiteres"];
+var index;
+function Remove(ClickedTrash) {
+    console.log("This is deleating the task");
+    ClickedTrash.parentElement.remove(); // p wird bei click auf Tonne gelöscht
+    index--;
+}
 
 window.addEventListener("load", function (): void {
 
@@ -20,11 +26,10 @@ window.addEventListener("load", function (): void {
         }
         document.querySelector("#tasknumber").innerHTML = "" + eintraege.length;
     }
-    function Remove(ClickedTrash) {
-        console.log("This is deleating the task");
-        ClickedTrash.parentElement.remove(); // p wird bei click auf Tonne gelöscht
-        index--;
- 
+   
+});
+
+
 /*
         function CheckedButton(ClickedButton) {
             if (ClickedButton.classList.contains("fa-circle")) {
