@@ -1,31 +1,35 @@
 var eintraege: string[] = ["einkaufen gehen", "Familie besuchen", "weiteres"];
+
+window.addEventListener("load", function (): void {
+
+    list();
+
+    document.querySelector("#addTask").addEventListener("click", function (): void {
+
+        var input: HTMLInputElement = document.querySelector("#input");
+        eintraege.push(input.value);
+        input.value = "";
+        console.log("pushing new entry");
+        list();
+    });
+
+});
+function list(): void {
+    document.querySelector("#eintraege").innerHTML = "";
+    for (var index: number = 0; index < eintraege.length; index++) {
+        document.querySelector("#eintraege").innerHTML +=  "<p>" + "<label class='container'><input type='checkbox'><span class='checkmark'></span></label>"  + " " + eintraege[index] + "<button onclick=\"Remove(this)\" class='far fa-trash-alt trash'>" + "</button>" + "</p>";
+    }
+    document.querySelector("#tasknumber").innerHTML = "" + eintraege.length;
+}
+
 function Remove(ClickedTrash) {
     console.log("This is deleating the task");
     ClickedTrash.parentElement.remove(); // p wird bei click auf Tonne gelöscht
     index--;
-
-    window.addEventListener("load", function (): void {
-
-        list();
-
-        document.querySelector("#addTask").addEventListener("click", function (): void {
-
-            var input: HTMLInputElement = document.querySelector("#input");
-            eintraege.push(input.value);
-            input.value = "";
-            console.log("huhu");
-            list();
-        });
-
-        function list(): void {
-            document.querySelector("#eintraege").innerHTML = "";
-            for (var index: number = 0; index < eintraege.length; index++) {
-                document.querySelector("#eintraege").innerHTML += "<p class=activity >" + "<i class='far fa-circle checkbox'></i>" + "  " + eintraege[index] + "</input>" + "<button onclick=\"Remove(this)\" class='far fa-trash-alt trash'>" + "</button>" + "     " + "</p>" + "<br>";
-            }
-            document.querySelector("#tasknumber").innerHTML = "" + eintraege.length;
-        }
-    });
-
+    var element = document.querySelector(".Rahmen");
+    var numberofChildren = element.children.length;
+    document.querySelector(".amount").innerHTML = numberofChildren + " in total";
+}
 
 /*
         function CheckedButton(ClickedButton) {
