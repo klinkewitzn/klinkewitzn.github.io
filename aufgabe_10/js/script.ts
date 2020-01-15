@@ -92,7 +92,7 @@ function drawListToDOM() {
     // das ToDo-Array durchlaufen (iterieren) und Todo für Todo in den DOM schreiben
     for (var indexloop = 0; indexloop < todos.text.length; indexloop++) {
         loop(indexloop);
-    }
+    } 
     updateCounter();
 }
 function updateCounter() {
